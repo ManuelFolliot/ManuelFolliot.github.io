@@ -1,0 +1,105 @@
+/**************************************************
+**************************************************
+
+GENERAL
+
+**************************************************
+**************************************************/
+
+html{
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h2{
+    padding: 1em;
+    margin-bottom: 0;
+    border: 1px solid black;
+    border-bottom: 0;
+    background-color: white;
+}
+
+/**************************************************
+**************************************************
+
+HEADER
+
+**************************************************
+**************************************************/
+
+header {
+    width: 20%;
+    position: relative;
+    height: 100vh;
+    padding: 2em;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 2em;
+}
+
+header nav ul li i{
+    margin: 0 1em;
+}
+
+/**************************************************
+**************************************************
+
+PICTURE
+
+**************************************************
+**************************************************/
+
+.border-image {
+    position: relative;
+    width: 3px; /* La largeur du bord entre header et main */
+    background-color: black;
+    height: 100vh;
+}
+
+#profile_pic {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    border: 3px black solid;
+    border-radius: 50%;
+}
+
+/**************************************************
+**************************************************
+
+MAIN
+
+**************************************************
+**************************************************/
+
+main {
+    background-image: url("../img/deskSetUp.JPG");
+    background-size: cover;
+    flex-grow: 1;
+    padding: 2em 10em;
+    display: flex;
+    flex-direction: column;
+    padding: 5em 20em;
+}
+
+.article{
+    background-color:aquamarine;
+    border: 1px solid black;
+    padding: 2em;
+}
