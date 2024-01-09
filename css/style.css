@@ -99,7 +99,20 @@ main {
 }
 
 .article{
-    background-color:aquamarine;
+    background-color:#00e5ff;
     border: 1px solid black;
     padding: 2em;
+}
+
+.article-formation-ecole p{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-details h3{
+    text-align: center;
 }
