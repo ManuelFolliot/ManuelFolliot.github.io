@@ -14,6 +14,7 @@ html{
 .container {
     display: flex;
     width: 100%;
+    height: 100vh;
 }
 
 h1, h2{
@@ -39,8 +40,8 @@ HEADER
 header {
     width: 20%;
     position: relative;
-    height: 100vh;
     padding: 2em;
+    height: 100vh;
 }
 
 header nav ul{
@@ -50,6 +51,12 @@ header nav ul{
 header nav ul li{
     padding: 2em;
 }
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 
 header nav ul li i{
     margin: 0 1em;
@@ -64,10 +71,9 @@ PICTURE
 **************************************************/
 
 .border-image {
-    position: relative;
+    position: relative; 
     width: 3px; /* La largeur du bord entre header et main */
     background-color: black;
-    height: 100vh;
 }
 
 #profile_pic {
@@ -96,10 +102,12 @@ main {
     display: flex;
     flex-direction: column;
     padding: 5em 20em;
+    height: 100vh; 
+    overflow-y: auto;
 }
 
 .article{
-    background-color:#00e5ff;
+    background-color:beige;
     border: 1px solid black;
     padding: 2em;
 }
